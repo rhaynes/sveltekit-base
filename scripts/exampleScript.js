@@ -1,10 +1,6 @@
 import env from 'lib/env.js';
 import { browser } from '$app/environment.js';
 
-export const expects = {
-  test: { type: 'integer' }
-};
-
 export async function main() {
   // This is an example of a command line script
   // To test this script, add `someEnvVariable: 123` to `.env.yaml` in the root
