@@ -23,4 +23,7 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url));
 
   // Execute the main() exported function
   await res.main();
+  
+  // Exit process
+  process.exit();
 })();
